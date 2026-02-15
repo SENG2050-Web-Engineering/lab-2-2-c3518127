@@ -1,9 +1,13 @@
-<form action=DisplayMyName method="GET" onsubmit="return true;">
-    <label for="firstName"> First Name </label>
-    <input type="text" name="firstName" id="firstName"/> <br>
-    <label for="lastName"> Last Name </label>
-    <input type="text" name="lastName" id="lastName"/> <br>
-    <input type="reset" value="Clear"/>
-    <input type="submit" value="Submit" />
-</form>
-    
+<head>
+    <script src = "/lab02/validate.js"></script>
+</head>
+<body>
+    <form action=DisplayMyName method="GET" onsubmit="return validate();">
+        <label for="firstName"> First Name </label>
+        <input type="text" name="firstName" id="firstName"/> <br>
+        <label for="lastName"> Last Name </label>
+        <input type="text" name="lastName" id="lastName"/> <br>
+        <input type="reset" value="Clear"/>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
